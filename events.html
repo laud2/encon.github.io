@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInputEvents").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myDIV div").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+</head>
+<body class="bodycontent" onload="wordswitchEvents()">
+<a href="index.html"><img src="pictures/back button.png" class="backbutton"></a>
+<button onclick="searchfieldEvents()" class="searchsquare"><img src="pictures/search button.png" class="searchbutton"></button>
+<input id="myInputEvents" type="text" placeholder="Search for Event...">
+<h2 id="aboutustitle">EVENTS</h2>
+<div id="myDIV">
+<a href="event3.html" class="linknews">
+<div class="newsfront">
+<img class="newsthumbnail" src="pictures/thrift store thumbnail.png"/>
+<h4 class="headline">Redress Thrift Store</h4>
+<p class="subheadline eventsub">Wednesday 27 November to Friday 29 November 2019</p>
+<p class="date">EVENT ENDED</p>
+</div>
+</a>
+<a href="event2.html" class="linknews">
+<div class="newsfront">
+<img class="newsthumbnail" src="pictures/redress thumbnail.png"/>
+<h4 class="headline">Redress Clothing Drive</h4>
+<p class="subheadline eventsub">Wednesday 20 November to Tuesday 26 November 2019</p>
+<p class="date">EVENT ENDED</p>
+</div>
+</a>
+<a href="event1.html" class="linknews">
+<div class="newsfront">
+<img class="newsthumbnail" src="pictures/inaturalist thumbnail.png"/>
+<h4 class="headline">HK iNaturalist Interschool Challenge</h4>
+<p class="subheadline eventsub">Monday 4th November to Thursday 7 November 2019</p>
+<p class="date">EVENT ENDED</p>
+</div>
+</a>
+</div>
+</body>
+</html>

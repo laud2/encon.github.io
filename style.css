@@ -1,0 +1,321 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+
+
+#greyBackground {
+	position: absolute;
+	background-color: rgba(165,165,175,0.5);
+	height: 100%;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+#enconLogo {
+	width: 30%;
+	height: 60%;
+	margin-left: 10%;
+	margin-top: 5%;
+	z-index: 1;
+	position: relative;
+}
+
+.homePageText {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 900;
+	text-decoration: none;
+	position: absolute;
+	font-size: 50px;
+	z-index: 0.5;
+}
+
+#home {
+	color: #015249;
+	transform: rotate(315deg);
+	left: 20%;
+	top: 18%;
+}
+
+#aboutus {
+	color: #FFFFFF;
+	transform: rotate(335deg);
+	left: 15%;
+	top: 22%;
+}
+
+#ourprojects {
+	color: #FFFFFF;
+	transform: rotate(350deg);
+	left: 14%;
+	top: 40%;
+}
+
+#news {
+	color: #FFFFFF;
+	transform: rotate(10deg);
+	left: 15%;
+	top: 45%;
+}
+
+#contactus {
+	color: #FFFFFF;
+	transform: rotate(22deg);
+	left: 15%;
+	top: 42%;
+}
+
+#backgroundHome {
+	z-index: -1;
+    height: 100%;
+	width: 100%;
+	left: 0%;
+	top: 0%;
+	position: absolute;
+}
+
+.eventText {
+	position: absolute;
+	align-items: center;
+	height: 9%;
+	width: 24%;
+	color: #FFFFFF;
+	border-style: solid;
+	border-width: 5px 5px 5px 5px;
+	border-color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+
+#event1 {
+	left: 0.1%;
+	bottom: 0%;
+	width: 23.9%;
+	font-size: 28px;
+}
+
+#event2 {
+	left: 25%;
+	bottom: 0%;
+	font-size: 25px;
+}
+
+#event3 {
+	left: 50%;
+	bottom: 0%;
+	font-size: 35px;
+}
+
+#moreevents {
+	left: 75%;
+	bottom: 0%;
+	width: 24.2%;
+	font-size: 37px;
+}
+
+
+.bodycontent {
+	background-color: #4D891B;
+}
+
+#aboutustitle {
+	color: #FFFFFF;
+	font-size: 75px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	margin: 0px 0px 0px 0px;
+}
+
+.backbutton {
+	height: 100px;
+	width: 150px;
+	margin-left: 5px;
+}
+
+.searchbutton {
+	height: 100px;
+	width: 150px;
+}
+
+.searchsquare {
+	margin-right: 5px;
+	float: right;
+}
+
+
+.longgrey {
+	position: absolute;
+	background-color: rgba(165,165,175,0.5);
+	height: 200px;
+	width: 100%;
+	z-index: 1;
+}
+
+.topic-images{
+	z-index: -1;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.subheading {
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	top: 40%;
+}
+
+.paragraph {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Comfortaa', cursive;
+	margin: 0px 10px 0px 10px;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+.subtopic {
+	margin: 25px 0px 0px 0px;
+}
+
+br {
+	display: block;
+	content: "";
+	margin-top: 10px;
+}
+
+.documents {
+	color: white;
+}
+
+#foodcrusaders {
+	height: 150px;
+	width: 150px;
+	margin-left: 50px;
+}
+
+#fctext {
+	text-align: left;
+	width: 80%;
+	float: right;
+}
+
+#plasticocean {
+	height: 150px;
+	width: 300px;
+	margin-left: 50px;
+}
+
+#potext {
+	text-align: left;
+	width: 70%;
+	float: right;
+}
+
+#cateringcommittee {
+	height: 150px;
+	width: 300px;
+	margin-left: 50px;
+}
+
+#cctext {
+	text-align: left;
+	width: 70%;
+	float: right;
+}
+
+#studentcouncil {
+	height: 150px;
+	width: 400px;
+	margin-left: 50px;
+}
+
+#sctext {
+	text-align: left;
+	width: 60%;
+	float: right;
+}
+
+.affgroup {
+	margin: 25px 0px 0px 0px;
+}
+
+
+.newsfront {
+	height: 100px;
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+}
+
+.newsthumbnail {
+	height: 100px;
+	width: 150px;
+	position: relative;
+	top: 0px;
+	float: left;
+}
+
+.headline {
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: -40%;
+	font-family: 'Comfortaa', cursive;
+	color: white;
+}
+
+
+.linknews {
+	text-decoration: none;
+}
+
+.subheadline {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: -75%;
+	margin-left: 155px;
+}
+
+.date {
+	font-family: 'Comfortaa', cursive;
+	color: black;
+	text-align: right;
+	font-size: 10px;
+	margin-right: 20px;
+	position: relative;
+	top: -100%;
+}
+
+.eventsub {
+	text-align: center;
+}
+
+.searchsquare {
+	background:none;
+    border:none;
+}
+
+#myInputNews {
+	width: 100%;
+	height: 50px;
+	font-family: 'Comfortaa', cursive;
+	display: ;
+}
+
+#myInputEvents {
+	width: 100%;
+	height: 50px;
+	font-family: 'Comfortaa', cursive;
+	display: ;
+}
