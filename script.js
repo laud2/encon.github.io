@@ -31,7 +31,7 @@ function changeImage(){
 	if (currentImageNumber == 4) {
 		currentImageNumber = 0;
 	}
-	document.getElementById("backgroundHome").setAttribute("src", "pictures/" + (Number(currentImageNumber) + 1) + ".png");	
+	document.getElementById("backgroundHome").setAttribute("src", "pictures/" + (Number(currentImageNumber) + 1) + ".PNG");	
 }
 
 function homeAnimationLeft(){
