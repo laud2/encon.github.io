@@ -125,7 +125,7 @@ function contactusAnimationTop(){
 }
 
 function changeColourAbout() {
-	document.getElementById("aboutus").style.color = '#77C9D4';
+	document.getElementById("aboutus").style.color = '#8DBF20';
 	
 }
 
@@ -134,7 +134,7 @@ function changeWhiteAbout() {
 }
 
 function changeColourProjects() {
-	document.getElementById("ourprojects").style.color = '#77C9D4';
+	document.getElementById("ourprojects").style.color = '#8DBF20';
 	
 }
 
@@ -143,7 +143,7 @@ function changeWhiteProjects() {
 }
 
 function changeColourNews() {
-	document.getElementById("news").style.color = '#77C9D4';
+	document.getElementById("news").style.color = '#8DBF20';
 	
 }
 
@@ -152,7 +152,7 @@ function changeWhiteNews() {
 }
 
 function changeColourContact() {
-	document.getElementById("contactus").style.color = '#77C9D4';
+	document.getElementById("contactus").style.color = '#8DBF20';
 	
 }
 

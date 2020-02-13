@@ -31,7 +31,8 @@ body {
 }
 
 #home {
-	color: #015249;
+	color: #4D891B;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	transform: rotate(315deg);
 	left: 20%;
 	top: 18%;
@@ -39,6 +40,7 @@ body {
 
 #aboutus {
 	color: #FFFFFF;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	transform: rotate(335deg);
 	left: 15%;
 	top: 22%;
@@ -46,6 +48,7 @@ body {
 
 #ourprojects {
 	color: #FFFFFF;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	transform: rotate(350deg);
 	left: 14%;
 	top: 40%;
@@ -53,6 +56,7 @@ body {
 
 #news {
 	color: #FFFFFF;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	transform: rotate(10deg);
 	left: 15%;
 	top: 45%;
@@ -60,6 +64,7 @@ body {
 
 #contactus {
 	color: #FFFFFF;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	transform: rotate(22deg);
 	left: 15%;
 	top: 42%;
@@ -79,7 +84,7 @@ body {
 	align-items: center;
 	height: 9%;
 	width: 24%;
-	color: #FFFFFF;
+	color: #8DBF20;
 	background-color: #4D891B;
 	border-style: solid;
 	border-width: 5px 5px 5px 5px;
@@ -143,6 +148,8 @@ body {
 .searchsquare {
 	margin-right: 5px;
 	float: right;
+	height: 100px;
+	width: 150px;
 }
 
 
@@ -162,6 +169,7 @@ body {
 
 .subheading {
 	color: #8DBF20;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
@@ -171,7 +179,7 @@ body {
 }
 
 .paragraph {
-	color: #FFFFFF;
+	color: #8DBF20;
 	font-size: 20px;
 	text-align: left;
 	font-family: 'Comfortaa', cursive;
@@ -193,7 +201,7 @@ br {
 }
 
 .documents {
-	color: white;
+	color: #8DBF20;
 }
 
 #foodcrusaders {
@@ -271,7 +279,7 @@ br {
 	position: relative;
 	top: -40%;
 	font-family: 'Comfortaa', cursive;
-	color: white;
+	color: #4D891B;
 }
 
 
@@ -281,7 +289,7 @@ br {
 
 .subheadline {
 	font-family: 'Comfortaa', cursive;
-	color: white;
+	color: #4D891B;
 	font-size: 20px;
 	position: relative;
 	top: -75%;
@@ -305,6 +313,9 @@ br {
 .searchsquare {
 	background:none;
     border:none;
+	!height: 100px;
+	!width: 150px;
+	
 }
 
 #myInputNews {
