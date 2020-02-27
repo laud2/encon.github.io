@@ -28,7 +28,7 @@ function startSlideShow(){
 function changeImage(){
 	var imageSrc = document.getElementById("backgroundHome").getAttribute("src");
 	var currentImageNumber= imageSrc.substring(imageSrc.lastIndexOf("/") + 1, imageSrc.lastIndexOf("/") + 2);
-	if (currentImageNumber == 4) {
+	if (currentImageNumber == 5) {
 		currentImageNumber = 0;
 	}
 	document.getElementById("backgroundHome").setAttribute("src", "pictures/" + (Number(currentImageNumber) + 1) + ".PNG");	
